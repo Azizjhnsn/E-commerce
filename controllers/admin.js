@@ -1,5 +1,5 @@
 const index = (rea, res)=>{
-    res.send("<h1>Hello world</h1>")
+    res.render("pages/admin/pages/index")
 }
 
 module.exports = {
